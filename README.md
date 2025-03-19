@@ -65,6 +65,7 @@ make flash FLASH_DEVICE=/dev/ttyOcto4a
 [mcu]
 serial:/dev/ttyOcto4a
 # baud: 115200 #（非必须，默认波特率连不上可改为115200）
+restart_method: command
 
 [virtual_sdcard]
 path: /home/octoprint/gcode_files
